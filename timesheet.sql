@@ -4,7 +4,7 @@ CREATE DATABASE timesheet
 
 CREATE TABLE `dates` ( 
   `id` INT NOT NULL AUTO_INCREMENT , 
-  `date` DATE NOT NULL , 
+  `date` VARCHAR(10) NOT NULL , 
   PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;
 
