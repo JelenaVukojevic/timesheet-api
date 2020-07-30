@@ -8,7 +8,7 @@ CREATE TABLE `dates` (
   PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;
 
-CREATE TABLE `items` ( 
+CREATE TABLE `tasks` ( 
   `id` INT NOT NULL AUTO_INCREMENT , 
   `date_id` INT NOT NULL , 
   `title` VARCHAR(250) NOT NULL , 
